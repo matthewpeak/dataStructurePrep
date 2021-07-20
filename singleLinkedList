@@ -1,0 +1,41 @@
+classa singleLinkedList{
+  constructor(){
+  this.head = null
+  this.tail = null
+  this.length = 0;
+  }
+  push(val){
+  if(!this.head){
+  this.head=newNode
+  this.tail=this.head
+  }
+  }
+  shift(){
+    if(!head){
+    return null}
+    let r = this.head 
+    this.head = this.head.next
+    return r 
+    this.length-- 
+  }
+  unshift(val){
+    const newNode= new Node(val)
+    if(!this.head){
+    push(newNode)
+  }
+   new.node.next(this.head)
+   this.head=new.node
+  this.length++
+  
+  get(index){
+    let counter = 0 
+    let current = this.head
+    if(counter==index){
+    return current}else{
+    counter++
+    current = current.next 
+    }
+    
+  
+  }
+}
